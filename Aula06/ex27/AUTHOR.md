@@ -1,0 +1,1 @@
+["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\joaov\\Documents\\UNESC\\Disciplinas\\4ªfase\\JPW\\Aula06\\ExerciciosJPW\\exemplo\\Exercicios\\Aula06\\ex27\\index.js","1","2","3"]

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+    
+    <style>
+        /* nao consegui utilizar o style.css com o node.js*/
+        * {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        label{
+            padding: 30px 0;
+            font-size: 15px;
+        }
+        form{
+            padding: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <form method="POST" action="/user">
+        <div>
+            <label for="user"> Usuario:</label>
+            <input name="user" type="text">
+        </div>
+        <div>
+            <label for="password"> Passaword</label>
+            <input name="password" type="password">
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
