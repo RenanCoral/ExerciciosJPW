@@ -12,6 +12,8 @@ app.get("/", (req,res)=>{
     //res.sendFile(__dirname.slice(2)+ "/login.html")
 })
 app.post("/user", (req,res)=>{
-    res.sendFile(__dirname+ "/html/sucesso.html")
+    if(req.body.user == "root" && req.body.password == "unesc2019 "){
+        res.sendFile(__dirname+ "/html/sucesso.html")
+    }
 })
 
